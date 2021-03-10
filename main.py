@@ -87,7 +87,7 @@ if __name__ == '__main__':
     print('===== Question 4 =====\nNumber of Authors Who Haven\'t Liked Any Posts: {}\n'.format(havent_liked))
 
     # Question 5
-    """
+    answer = """===== Question 5 =====\n
     To answer questions 1-4 I've used Pandas Dataframes and Series, and Numpy Arrays. I used these tools because this was a
     relatively small dataset, and the majority of each record was not needed to answer these questions (content, etc). I picked these tools
     because they are powerful libraries for performing aggregations and scalar operations across a dataset like this one, and this particular
@@ -99,3 +99,4 @@ if __name__ == '__main__':
     user interactions each day, so I decided to use Dask to handle the processing. It's very similar to Spark and has an almost identical interface as a standard
     Pandas DataFrame, but it is capable of parallelizing a task across many workers, and a scheduler to perform the final merging once the workers have finished.
     """
+    print(answer)
